@@ -1,58 +1,48 @@
 class Runner {
     public static void main(String args[]) {
-		
-	    Computer c1 = new Computer("Intel i7", 16, 85000.00, true, 'A');
+	
+        Appliance a1 = new Appliance("Refrigerator", 500, 35000.50, true, 'A');
+        System.out.println("Appliance name : " + a1.name + " power : " + a1.powerWatts + "W price : " + a1.price + " smart : " + a1.isSmart + " energy rating : " + a1.energyRating);
+        Appliance a2 = new Appliance("Microwave", 900, 12000.00, false, 'B');
+        System.out.println("Appliance name : " + a2.name + " power : " + a2.powerWatts + "W price : " + a2.price + " smart : " + a2.isSmart + " energy rating : " + a2.energyRating);
+        Appliance a3 = new Appliance("Washing Machine", 750, 25000.99, true, 'A');
+        System.out.println("Appliance name : " + a3.name + " power : " + a3.powerWatts + "W price : " + a3.price + " smart : " + a3.isSmart + " energy rating : " + a3.energyRating);
+        
+		System.out.println("=========================================");
+
+        Vehicle v1 = new Vehicle("Tesla", 2024, 450.5, true, 'E');
+        System.out.println("Vehicle brand : " + v1.brand + " model year : " + v1.modelYear + " mileage : " + v1.mileage + " electric : " + v1.isElectric + " fuel type : " + v1.fuelType);
+        Vehicle v2 = new Vehicle("Toyota", 2022, 18.5, false, 'P');
+        System.out.println("Vehicle brand : " + v2.brand + " model year : " + v2.modelYear + " mileage : " + v2.mileage + " electric : " + v2.isElectric + " fuel type : " + v2.fuelType);
+        Vehicle v3 = new Vehicle("Honda", 2023, 22.8, false, 'D');
+        System.out.println("Vehicle brand : " + v3.brand + " model year : " + v3.modelYear + " mileage : " + v3.mileage + " electric : " + v3.isElectric + " fuel type : " + v3.fuelType);
+        
+		System.out.println("=========================================");
+
+        Computer c1 = new Computer("Intel i7", 16, 85000.00, true, 'A');
         System.out.println("Processor : " + c1.processor + " RAM : " + c1.ramGB + "GB price : " + c1.price + " graphics : " + c1.hasGraphicsCard + " performance : " + c1.performanceGrade);
-       
-	   Computer c2 = new Computer("AMD Ryzen 5", 8, 55000.50, true, 'B');
+        Computer c2 = new Computer("AMD Ryzen 5", 8, 55000.50, true, 'B');
         System.out.println("Processor : " + c2.processor + " RAM : " + c2.ramGB + "GB price : " + c2.price + " graphics : " + c2.hasGraphicsCard + " performance : " + c2.performanceGrade);
-       
-	   Computer c3 = new Computer("Intel i3", 4, 35000.25, false, 'C');
+        Computer c3 = new Computer("Intel i3", 4, 35000.25, false, 'C');
         System.out.println("Processor : " + c3.processor + " RAM : " + c3.ramGB + "GB price : " + c3.price + " graphics : " + c3.hasGraphicsCard + " performance : " + c3.performanceGrade);
        
 	   System.out.println("=========================================");
-       
-	   Actuator actuator1 = new Actuator("Hydraulic", (short) 150, 0.85, true, 'G');
-        System.out.println("The Actuator Type is : " + actuator1.type + " its power : " + actuator1.power + " efficiency : " + actuator1.efficiency + " isenabled : " + actuator1.isEnabled + " their condition : " + actuator1.condition);
-
-        Actuator actuator2 = new Actuator("Pneumatic", (short) 120, 0.75, false, 'F');
-        System.out.println("The Actuator Type is : " + actuator2.type + " its power : " + actuator2.power + " efficiency : " + actuator2.efficiency + " isenabled : " + actuator2.isEnabled + " their condition : " + actuator2.condition);
-
-        Actuator actuator3 = new Actuator("Electric", (short) 200, 0.95, true, 'E');
-        System.out.println("The Actuator Type is : " + actuator3.type + " its power : " + actuator3.power + " efficiency : " + actuator3.efficiency + " isenabled : " + actuator3.isEnabled + " their condition : " + actuator3.condition);
-
-        System.out.println("=========================================");
-
-        Controller controller1 = new Controller("X100", 1, 0.5, (byte) 10, 'A');
-        System.out.println("Model is : " + controller1.model + " The model version are : " + controller1.version + " Where it will response in : " + controller1.responseTime + " It's value : " + controller1.value + " having a code : " + controller1.statusCode);
-
-        Controller controller2 = new Controller("X200", 2, 0.6, (byte) 20, 'B');
-        System.out.println("Model is : " + controller2.model + " The model version are : " + controller2.version + " Where it will response in : " + controller2.responseTime + " It's value : " + controller2.value + " having a code : " + controller2.statusCode);
-
-        Controller controller3 = new Controller("X300", 3, 0.4, (byte) 30, 'C');
-        System.out.println("Model is : " + controller3.model + " The model version are : " + controller3.version + " Where it will response in : " + controller3.responseTime + " It's value : " + controller3.value + " having a code : " + controller3.statusCode);
-
-        System.out.println("=========================================");
-
-        Monitor monitor1 = new Monitor("Dell", 123456789L, 27.5f, true, (byte) 5);
-        System.out.println("Name : " + monitor1.name + " and the item is placed in : " + monitor1.serialNumber + " Where having a size : " + monitor1.screenSize + " is isworking : " + monitor1.isWorking + " And the having a best ratings: " + monitor1.rating);
-
-        Monitor monitor2 = new Monitor("Samsung", 987654321L, 24.0f, false, (byte) 4);
-        System.out.println("Name : " + monitor2.name + " and the item is placed in : " + monitor2.serialNumber + " Where having a size : " + monitor2.screenSize + " is isworking : " + monitor2.isWorking + " And the having a best ratings: " + monitor2.rating);
-
-        Monitor monitor3 = new Monitor("LG", 112233445L, 32.0f, true, (byte) 3);
-        System.out.println("Name : " + monitor3.name + " and the item is placed in : " + monitor3.serialNumber + " Where having a size : " + monitor3.screenSize + " is isworking : " + monitor3.isWorking + " And the having a best ratings: " + monitor3.rating);
+     
+		
+        Employee e1 = new Employee("Chandana", 101, 50000.00, true, 'A');
+        System.out.println("Employee name : " + e1.name + " ID : " + e1.id + " salary : " + e1.salary + " permanent : " + e1.isPermanent + " grade : " + e1.grade);
+        Employee e2 = new Employee("Ravi", 102, 35000.00, false, 'B');
+        System.out.println("Employee name : " + e2.name + " ID : " + e2.id + " salary : " + e2.salary + " permanent : " + e2.isPermanent + " grade : " + e2.grade);
+        Employee e3 = new Employee("Priya", 103, 60000.00, true, 'A');
+        System.out.println("Employee name : " + e3.name + " ID : " + e3.id + " salary : " + e3.salary + " permanent : " + e3.isPermanent + " grade : " + e3.grade);
         
 		System.out.println("=========================================");
-        
-		Building b1 = new Building("SkyTower", 50, 220.5, true, 'C');
+
+        Building b1 = new Building("SkyTower", 50, 220.5, true, 'C');
         System.out.println("Building name : " + b1.name + " floors : " + b1.floors + " height : " + b1.height + " has lift : " + b1.hasLift + " category : " + b1.category);
-        
-		Building b2 = new Building("GreenHeights", 20, 95.8, true, 'R');
+        Building b2 = new Building("GreenHeights", 20, 95.8, true, 'R');
         System.out.println("Building name : " + b2.name + " floors : " + b2.floors + " height : " + b2.height + " has lift : " + b2.hasLift + " category : " + b2.category);
-        
-		Building b3 = new Building("CityMall", 10, 45.2, false, 'M');
+        Building b3 = new Building("CityMall", 10, 45.2, false, 'M');
         System.out.println("Building name : " + b3.name + " floors : " + b3.floors + " height : " + b3.height + " has lift : " + b3.hasLift + " category : " + b3.category);
     }
 }
-		
