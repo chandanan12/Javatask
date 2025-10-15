@@ -3,7 +3,7 @@ class Runner {
 	
         Appliance a1 = new Appliance("Refrigerator", 500, 35000.50, true, 'A');
         System.out.println("Appliance name : " + a1.name + " power : " + a1.powerWatts + "W price : " + a1.price + " smart : " + a1.isSmart + " energy rating : " + a1.energyRating);
-        Appliance a2 = new Appliance("Microwave", 900, 12000.00, false, 'B');
+		Appliance a2 = new Appliance("Microwave", 900, 12000.00, false, 'B');
         System.out.println("Appliance name : " + a2.name + " power : " + a2.powerWatts + "W price : " + a2.price + " smart : " + a2.isSmart + " energy rating : " + a2.energyRating);
         Appliance a3 = new Appliance("Washing Machine", 750, 25000.99, true, 'A');
         System.out.println("Appliance name : " + a3.name + " power : " + a3.powerWatts + "W price : " + a3.price + " smart : " + a3.isSmart + " energy rating : " + a3.energyRating);
