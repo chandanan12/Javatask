@@ -1,15 +1,26 @@
 class Vehicle {
-    String brand;
-    int modelYear;
-    double mileage;
-    boolean isElectric;
-    char fuelType;
+    public static void start() {
+        System.out.println("Starting the vehicle...");
+    }
 
-    public Vehicle(String brand, int modelYear, double mileage, boolean isElectric, char fuelType) {
-        this.brand = brand;
-        this.modelYear = modelYear;
-        this.mileage = mileage;
-        this.isElectric = isElectric;
-        this.fuelType = fuelType;
+    public static void stop() {
+        System.out.println("Stopping the vehicle...");
+    }
+
+    public void fuel() {
+        System.out.println("Filling fuel...");
+    }
+
+    public void wash() {
+        System.out.println("Washing the vehicle...");
+    }
+
+    public void checkEngine() {
+        System.out.println("Checking engine...");
+    }
+
+    public void testDrive() {
+        System.out.println("Testing drive...");
     }
 }
+

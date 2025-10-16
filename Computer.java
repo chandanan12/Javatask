@@ -1,15 +1,26 @@
 class Computer {
-    String processor;
-    int ramGB;
-    double price;
-    boolean hasGraphicsCard;
-    char performanceGrade;
+    public static void boot() {
+        System.out.println("Booting computer...");
+    }
 
-    public Computer(String processor, int ramGB, double price, boolean hasGraphicsCard, char performanceGrade) {
-        this.processor = processor;
-        this.ramGB = ramGB;
-        this.price = price;
-        this.hasGraphicsCard = hasGraphicsCard;
-        this.performanceGrade = performanceGrade;
+    public static void shutdown() {
+        System.out.println("Shutting down computer...");
+    }
+
+    public void compile() {
+        System.out.println("Compiling code...");
+    }
+
+    public void runProgram() {
+        System.out.println("Running program...");
+    }
+
+    public void connectWifi() {
+        System.out.println("Connecting to WiFi...");
+    }
+
+    public void display() {
+        System.out.println("Displaying output...");
     }
 }
+
