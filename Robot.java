@@ -20,7 +20,10 @@ class Robot {
     }
 
     public void work() {
-        System.out.println("Robot is performing assigned task...");
+        System.out.println("Robot is performing assigned task..."); 
+		
+	public void recharge(){
+		System.out.println("Robot should recharge");
     }
 }
 

@@ -21,6 +21,9 @@ class Artist {
 
     public void sign() {
         System.out.println("Signing the artwork...");
+	
+	public void paint(){
+		System.out.println("Artist will paint the color");
     }
 }
 
