@@ -21,6 +21,10 @@ class Instrument {
 
     public void testSound() {
         System.out.println("Testing sound...");
+	}
+		
+	public void displayInfo(){
+		System.out.println("displaying instrument information..");
     }
 }
 

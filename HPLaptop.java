@@ -7,5 +7,9 @@ class HPLaptop extends Computer {
     @Override
     public void connectWifi() {
         System.out.println("HPLaptop connected to wireless hotspot...");
+	}
+	
+	public void start(){
+		System.out.println("starting a HPLaptop");
     }
 }

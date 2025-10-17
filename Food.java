@@ -21,6 +21,10 @@ class Food {
 
     public void store() {
         System.out.println("Storing food...");
+	}
+		
+	public void shape(){
+		System.out.println("shape ");
     }
 }
 

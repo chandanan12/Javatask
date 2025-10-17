@@ -7,5 +7,9 @@ class Clinic extends Hospital {
     @Override
     public void maintainRecords() {
         System.out.println("Maintaining outpatient records...");
+	}
+		
+	public void records(){
+	    System.out.println("patient records should be present");
     }
 }

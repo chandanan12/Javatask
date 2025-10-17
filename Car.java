@@ -7,5 +7,9 @@ class Car extends Vehicle {
     @Override
     public void testDrive() {
         System.out.println("Testing car speed and handling...");
+	}
+		
+	public void color(){
+		System.out.println("color of car");
     }
 }

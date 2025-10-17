@@ -21,6 +21,10 @@ class Game {
 
     public void score() {
         System.out.println("Scoring points...");
+	}
+		
+	public void start(){
+		System.out.println("starting the game");
     }
 }
 

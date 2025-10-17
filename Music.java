@@ -21,6 +21,10 @@ class Music {
 
     public void listen() {
         System.out.println("Listening to song...");
+	}
+		
+	public void volume(){
+	    System.out.println("changing volume");
     }
 }
 

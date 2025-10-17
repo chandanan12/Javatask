@@ -21,6 +21,10 @@ class Employe {
 
     public void takeBreak() {
         System.out.println("Taking short break...");
+	}
+		
+	public void login(){
+		System.out.println("Employe logs in..");
     }
 }
 

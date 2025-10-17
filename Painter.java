@@ -7,6 +7,7 @@ class Painter extends Artist {
     @Override
     public void color() {
         System.out.println("Coloring with oil paints and textures...");
+	}
 	
 	public void paint(){
 		System.out.println("Coloring with paint");

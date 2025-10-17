@@ -21,6 +21,10 @@ class Plant {
 
     public void shedLeaves() {
         System.out.println("Shedding leaves...");
+	}
+		
+	public void color(){
+		System.out.println("color of plant");
     }
 }
 

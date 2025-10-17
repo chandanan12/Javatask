@@ -21,6 +21,10 @@ class Device {
 
     public void update() {
         System.out.println("Updating device software...");
+	}
+		
+	public void delete(){
+		System.out.println("deleting the software...");
     }
 }
 

@@ -1,4 +1,4 @@
-class Cricket extends Sports {
+class Cricket extends Sports1 {
     @Override
     public void play() {
         System.out.println("Playing cricket on the field...");
@@ -7,5 +7,9 @@ class Cricket extends Sports {
     @Override
     public void score() {
         System.out.println("Batsman hits a century...");
+	}
+		
+	public void match(){
+		System.out.println("played matches of cricket");
     }
 }

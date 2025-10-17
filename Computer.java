@@ -21,6 +21,10 @@ class Computer {
 
     public void display() {
         System.out.println("Displaying output...");
+	}
+		
+	public void start(){
+		System.out.println("starting a computer");
     }
 }
 

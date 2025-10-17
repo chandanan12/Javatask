@@ -7,5 +7,9 @@ class Pizza extends Food {
     @Override
     public void taste() {
         System.out.println("Pizza tastes cheesy and spicy...");
+	}
+		
+	public void shape(){
+		System.out.println("shape  of pizza");
     }
 }

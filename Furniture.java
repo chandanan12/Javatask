@@ -21,6 +21,10 @@ class Furniture {
 
     public void deliver() {
         System.out.println("Delivering furniture...");
+	}
+		
+	public void time(){
+		System.out.println("delivering furniture time");
     }
 }
 

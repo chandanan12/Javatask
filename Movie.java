@@ -21,6 +21,10 @@ class Movie {
 
     public void pause() {
         System.out.println("Pausing movie...");
+	}
+		
+	public void time(){
+	    System.out.println("movie showing time");
     }
 }
 

@@ -21,6 +21,10 @@ class Appliance {
 
     public void clean() {
         System.out.println("Cleaning appliance...");
+	}
+		
+	public void powerOn(){
+		System.out.println("powerOn the appliance");
     }
 }
 

@@ -21,6 +21,11 @@ class Library {
 
     public void fineCollection() {
         System.out.println("Collecting fines...");
+	}
+		
+	public void bookNumber(){
+	    System.out.println("book number should be");
+		
     }
 }
 

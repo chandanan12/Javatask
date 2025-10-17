@@ -21,6 +21,10 @@ class Teacher {
 
     public void evaluateStudents() {
         System.out.println("Evaluating students...");
+	}
+		
+	public void record(){
+		System.out.println("absence will record");
     }
 }
 

@@ -21,6 +21,10 @@ class Vehicle {
 
     public void testDrive() {
         System.out.println("Testing drive...");
+	}
+		
+	public void color(){
+		System.out.println("color of vehicle");
     }
 }
 

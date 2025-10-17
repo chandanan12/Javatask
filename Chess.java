@@ -7,5 +7,9 @@ class Chess extends Game {
     @Override
     public void score() {
         System.out.println("Winning by checkmate...");
+	}
+	
+	public void start(){
+		System.out.println("starting the game of chess");
     }
 }

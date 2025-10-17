@@ -7,5 +7,9 @@ class Mobile extends Device {
     @Override
     public void update() {
         System.out.println("Updating Android OS...");
+	}
+		
+	public void delete(){
+		System.out.println("deleting the the photos");
     }
 }

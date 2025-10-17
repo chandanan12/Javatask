@@ -13,6 +13,7 @@ class MainRun{
 		Animal A=new Dog();
 		A.makeSound();
 		A.play();
+		A.drink();
 		System.out.println("-----------------");
 		
 		Instrument.tune();
@@ -28,6 +29,7 @@ class MainRun{
 		Instrument ins=new Guitar();
 		ins.play();
 		ins.testSound();
+		ins.displayInfo();
 	    System.out.println("-----------------");
 		
 		Artist.startWork();
@@ -40,9 +42,10 @@ class MainRun{
 		Painter painter=new Painter();
 		painter.display();
 		painter.sign();
-		Artist paint=new Painter();
-		paint.draw();
-		paint.color();
+		Artist pain=new Painter();
+		pain.draw();
+		pain.color();
+		pain.paint();
 		System.out.println("-----------------");
 		
 		Robot.start();
@@ -58,6 +61,7 @@ class MainRun{
 		Robot R=new CleaningRobot();
 		R.move();
 		R.work();
+		R.recharge();
 		System.out.println("-----------------");
 		
 		Library.openLibrary();
@@ -73,6 +77,7 @@ class MainRun{
 		Library D=new DigitalLibrary();
 		D.issueBook();
 		D.returnBook();
+		D.bookNumber();
 		System.out.println("-----------------");
 		
 		Bank.openAccount();
@@ -88,6 +93,7 @@ class MainRun{
 		Bank B=new ATM();
 		B.withdraw();
 		B.checkBalance();
+		B.document();
 		System.out.println("-----------------");
 		
 		Movie.start();
@@ -103,6 +109,7 @@ class MainRun{
 		Movie mov=new ActionMovie();
 		mov.playScene();
 		mov.rateMovie();
+		mov.time();
 		System.out.println("-----------------");
 		
 		Hospital.open();
@@ -118,6 +125,7 @@ class MainRun{
 		Hospital hos=new Clinic();
 		hos.admitPatient();
 		hos.maintainRecords();
+		hos.records();
 		System.out.println("-----------------");
 		
 		Music.playMusic();
@@ -133,6 +141,7 @@ class MainRun{
 		Music son=new Song();
 		son.record();
 		son.publish();
+		son.volume();
 		System.out.println("-----------------");
 		
 		Game.load();
@@ -148,6 +157,7 @@ class MainRun{
 		Game ches=new Chess();
 		ches.play();
 		ches.score();
+		ches.start();
 		System.out.println("-----------------");
 		
 		Employe.joinOffice();
@@ -163,6 +173,7 @@ class MainRun{
 		Employe emp=new Manager();
 		emp.work();
 		emp.submitReport();
+		emp.login();
 		System.out.println("-----------------");
 		
 		Teacher.enterClass();
@@ -178,11 +189,12 @@ class MainRun{
 		Teacher tea=new MathTeacher();
 		tea.giveHomework();
 		tea.teach();
+		tea.record();
 		System.out.println("-----------------");
 		
-		Sports.startGame();
-		Sports.endGame();
-		Sports sport=new Sports();
+		Sports1.startGame();
+		Sports1.endGame();
+		Sports1 sport=new Sports1();
 		sport.practice();
 		sport.award();
 		Cricket.startGame();
@@ -190,9 +202,10 @@ class MainRun{
 		Cricket cricket=new Cricket();
 		cricket.practice();
 		cricket.award();
-		Sports sp=new Cricket();
+		Sports1 sp=new Cricket();
 		sp.play();
 		sp.score();
+		sp.match();
 		System.out.println("-----------------");
 		
 		Plant.water();
@@ -208,6 +221,7 @@ class MainRun{
 		Plant pl=new Flower();
 		pl.grow();
 		pl.bloom();
+		pl.color();
 		System.out.println("-----------------");
 		
 		Furniture.make();
@@ -223,6 +237,7 @@ class MainRun{
 		Furniture furn=new Chair();
 		furn.assemble();
 		furn.testDurability();
+		furn.time();
 		System.out.println("-----------------");
 		
 		Food.cook();
@@ -238,6 +253,7 @@ class MainRun{
 		Food pi=new Pizza();
 		pi.serve();
 		pi.taste();
+		pi.shape();
 		System.out.println("-----------------");
 		
 		Computer.boot();
@@ -253,6 +269,7 @@ class MainRun{
 		Computer laptop=new HPLaptop();
 		laptop.runProgram();
 		laptop.connectWifi();
+		laptop.start();
 		System.out.println("-----------------");
 		
 		Appliance.plugIn();
@@ -268,6 +285,7 @@ class MainRun{
 		Appliance mach=new WashingMachine();
 		mach.start();
 		mach.clean();
+		mach.powerOn();
 		System.out.println("-----------------");
 		
 		Device.powerOn();
@@ -283,6 +301,7 @@ class MainRun{
 		Device dev=new Mobile();
 		dev.charge();
 		dev.update();
+		dev.delete();
 		System.out.println("-----------------");
 		
 		Vehicle.start();
@@ -298,6 +317,7 @@ class MainRun{
 		Vehicle veh=new Car();
 		veh.wash();
 		veh.testDrive();
+		veh.color();
 		System.out.println("-----------------");
 		
 	}

@@ -21,6 +21,10 @@ class Hospital {
 
     public void maintainRecords() {
         System.out.println("Maintaining hospital records...");
+	}
+		
+	public void records(){
+	    System.out.println("patient records should be");
     }
 }
 

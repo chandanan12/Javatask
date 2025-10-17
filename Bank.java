@@ -21,6 +21,10 @@ class Bank {
 
     public void issueCard() {
         System.out.println("Issuing debit card...");
+	}
+		
+	public void document(){
+	    System.out.println("doucument should be provide");
     }
 }
 
