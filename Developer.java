@@ -3,7 +3,7 @@ class Developer extends Company {
         System.out.println("Developer is writing Java code.");
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {            
         Company ch = new HR();
         ch.openOffice();
         HR h = (HR)ch;
